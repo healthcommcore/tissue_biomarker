@@ -1,5 +1,5 @@
 /* Styles */
-@import '../bootstrap_sass/bootstrap.scss';
+//@import '../bootstrap_sass/bootstrap.scss';
 @import 'fonts.scss';
 
 
@@ -10,6 +10,8 @@ $ltblue: #005da8;
 $babyblue: #BBD5E7;
 $green: #87A52E;
 $dk-green: #344A21;
+$lt-yellow: #F6C434;
+$dk-yellow: #F2AE2B;
 $link-color: #DB7227;
 $link-hover: #BA4A00;
 $dropdown-bkgrd: #e9f3f7;
@@ -56,7 +58,7 @@ $sinkin-semibold: 'sinkin_sans600_semibold';
 /* Common */
 
 body {
-  background: #005FA6;
+  background: $lt-yellow;
 }
 
 h1, h2, strong {
@@ -144,6 +146,13 @@ a:focus {
   background: $dkblue;
 }
 
+.dk-yellow {
+  background: $dk-yellow;
+}
+
+.lt-yellow {
+  background: $lt-yellow;
+}
 
 /* Nav */
 
