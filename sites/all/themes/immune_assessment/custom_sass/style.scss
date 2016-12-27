@@ -5,14 +5,16 @@
 
 /* Variables */
 
-$dkblue: #0C3965;
+$dkblue: #1E4167;
+$blue: #155F8B;
 $ltblue: #005da8;
 $babyblue: #BBD5E7;
 $green: #87A52E;
 $dk-green: #344A21;
 $lt-yellow: #F6C434;
+$lt-lt-yellow: #fff9d5;
 $dk-yellow: #F2AE2B;
-$link-color: #DB7227;
+$link-color: $dk-yellow;
 $link-hover: #BA4A00;
 $dropdown-bkgrd: #e9f3f7;
 $dropdown-border: #C0CACE;
@@ -58,7 +60,7 @@ $sinkin-semibold: 'sinkin_sans600_semibold';
 /* Common */
 
 body {
-  background: $lt-yellow;
+  background: $dkblue;
 }
 
 h1, h2, strong {
@@ -69,20 +71,22 @@ strong {
   font-family: $alegreya-med;
 }
 
+h1, h2 {
+  color: $blue;
+}
+
 h1 {
   font-family: $sinkin-lt;
   margin-top: 0;
-  color: $ltblue;
   line-height: 1.3em;
 }
 
 .page-header {
-  border-bottom-color: $ltblue;
+  border-bottom-color: $blue;
 }
 
 h2 {
   font-family: $sinkin-med;
-  color: $green;
   font-size: 1.0em;
   line-height: 1.4em;
 }
@@ -109,6 +113,10 @@ a:focus {
 }
 
 /* Header */
+
+header {
+  background: $lt-yellow;
+}
 
 .header-ht {
   height: 146px;
@@ -180,13 +188,14 @@ a:focus {
 .nav > li > a:hover, 
 .nav > li > a:focus {
   background: none;
-  color: $dk-green;
+  color: $lt-yellow;
 }
 
 .nav-area {
-  background: $green url('../images/nav_bkgrd.gif') 0 0 repeat-x;
+  background: $green url('../images/nav_bkgrd_blue.gif') 0 0 repeat-x;
   font-family: $sinkin-reg;
-  @include border(top);
+  //@include border(top);
+  border-top: $dkblue 6px solid;
 }
 
 
@@ -219,26 +228,25 @@ a:focus {
 /* Hero */
 
 .hero-bkgrd {
-  background: #E6EFF6 url('../images/hero_bkgrd.gif') 100% 0 no-repeat;
+  background: $lt-lt-yellow url('../images/hero_bkgrd_yellow.gif') 100% 0 no-repeat;
   padding-bottom: 40px;
-  @include border(bottom);
+  border-bottom: $dkblue 6px solid;
 }
 
 
 /* Home */
 
 .immune-home {
+  color: $blue;
   width: 80%; 
   margin-bottom: 40px;
   h1 {
-    color: $dkblue;
     font-size: 1.6em;
   }
   ul {
     margin: 10px 0;
   }
   li {
-    color: $green;
     font-family: $sinkin-lt;
     font-size: 1.1em;
     line-height: 1.6em;
@@ -345,7 +353,6 @@ a:focus {
   padding: 45px 0 55px 0;
   border-top: none;
   margin-top: 0;
-  @include border(top);
 
 }
 

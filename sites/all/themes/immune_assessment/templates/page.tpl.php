@@ -72,6 +72,9 @@
  *
  * @ingroup themeable
  */
+//$themes = list_themes();
+//print_r($themes['immune_assessment']);
+//$real_path = drupal_realpath('public://');
 ?>
 <header class="header-ht">
 	<div class="header-ht dk-yellow absolute header-left">
@@ -85,7 +88,7 @@
       <?php endif; ?>
 			<div class="col-sm-4 col-sm-offset-2">
 				<a class="dfci-head popup pull-right" href="http://www.dana-farber.org">
-					<img class="img-responsive" alt="Dana-Farber Cancer Institute logo" src="/sites/default/files/images/dfci_top.png" />
+        <img class="img-responsive" alt="Dana-Farber Cancer Institute logo" src="<?php print $base_path . 'sites/default/files/dfci.png'; ?>" />
 				</a>
 			</div>
 		</div>
