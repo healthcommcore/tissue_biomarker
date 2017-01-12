@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/technology-platforms</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/collaborating-tissue-biomarker-labcenter-immuno-oncology</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/people</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/publications</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/contact</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/sitemap</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/user</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/services/next-generation-sequencing</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/technology-platforms/multiplex-immunofluorescence</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/technology-platforms/fluorescent-situ-hybridization-fish</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/sites/default/files/Website_Proposal%20Template%20doc.docx</loc>
+  <lastmod>2017-01-12T14:18:56+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://ciopath.dfci.harvard.edu/user/password</loc>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>

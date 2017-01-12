@@ -192,7 +192,7 @@ header {
 }
 
 .nav-area {
-  background: $green url('../images/nav_bkgrd_blue.gif') 0 0 repeat-x;
+  background: $dkblue url('../images/nav_bkgrd_blue.gif') 0 0 repeat-x;
   font-family: $sinkin-reg;
   //@include border(top);
   border-top: $dkblue 6px solid;
@@ -399,10 +399,23 @@ header {
 
 /* Tablet landscape */
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   .header-bkgrd {
     background: url('../images/header_bkgrd_1200.gif') no-repeat center center;
   }
+  .navbar-collapse .navbar-nav {
+    margin-left: 0;
+  }
+
+  .navbar-nav > li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav > li > a {
+    font-size: 1.05em;
+  }
+
 }
 
 
@@ -417,9 +430,10 @@ header {
     margin-left: 0;
   }
 
-  .navbar-nav > li {
-    padding-left: 15px;
-    padding-right: 15px;
+  .navbar-nav > li a {
+    font-size: 1.0em;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .dfci-head {
@@ -428,7 +442,11 @@ header {
   }
 
   .submenu {
+    margin-right: 0;
     font-size: 55%;
+    .nav li a {
+      word-break: break-all;
+    }
   }
 
   .immune-home {
@@ -511,7 +529,7 @@ header {
       li > a.active-trail,
       li > a:focus {
         background: none;
-        color: $dk-green;
+        color: $lt-yellow;
       }
     }
   } 

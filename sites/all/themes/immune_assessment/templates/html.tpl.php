@@ -56,13 +56,22 @@
   <?php global $base_url; ?>
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
-    <script src="<?php echo $base_url . '/' . drupal_get_path('theme', 'immune_assessment') . '/js/html5shiv.min.js'; ?>"></script>
-    <script src="<?php echo $base_url . '/' . drupal_get_path('theme', 'immune_assessment') . '/js/respond.min.js'; ?>"></script>
+    <script src="https://raw.githubusercontent.com/aFarkas/html5shiv/master/dist/html5shiv.min.js"></script>
+    <script src="https://raw.githubusercontent.com/scottjehl/Respond/master/dest/respond.min.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
 
 <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-90233981-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
   <!--[if lt IE 9]>
     <body class="<?php print $classes . ' ieclass'; ?>" <?php print $attributes;?>>
